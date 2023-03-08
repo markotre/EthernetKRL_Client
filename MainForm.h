@@ -27,7 +27,8 @@ namespace EthernetKRLClient {
         TcpClient^ mTcpClient2 = nullptr;
         NetworkStream^ mTcpStream2 = nullptr;
         TcpClient^ mTcpClient3 = nullptr;
-        NetworkStream^ mTcpStream3 = nullptr;
+    private: System::Windows::Forms::Button^ button4;
+           NetworkStream^ mTcpStream3 = nullptr;
         
         
 
@@ -284,6 +285,7 @@ private: System::ComponentModel::IContainer^ components;
             this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
             this->timer2 = (gcnew System::Windows::Forms::Timer(this->components));
             this->timer3 = (gcnew System::Windows::Forms::Timer(this->components));
+            this->button4 = (gcnew System::Windows::Forms::Button());
             this->tableLayoutPanel1->SuspendLayout();
             this->tableLayoutPanel25->SuspendLayout();
             (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->trackBar18))->BeginInit();
@@ -1873,7 +1875,7 @@ private: System::ComponentModel::IContainer^ components;
             // 
             // timer1
             // 
-            this->timer1->Interval = 40;
+            this->timer1->Interval = 1000;
             this->timer1->Tick += gcnew System::EventHandler(this, &MainForm::timer1_Tick);
             // 
             // timer2
@@ -1886,11 +1888,22 @@ private: System::ComponentModel::IContainer^ components;
             this->timer3->Interval = 40;
             this->timer3->Tick += gcnew System::EventHandler(this, &MainForm::timer3_Tick);
             // 
+            // button4
+            // 
+            this->button4->Location = System::Drawing::Point(0, 0);
+            this->button4->Name = L"button4";
+            this->button4->Size = System::Drawing::Size(75, 23);
+            this->button4->TabIndex = 1;
+            this->button4->Text = L"send";
+            this->button4->UseVisualStyleBackColor = true;
+            this->button4->Click += gcnew System::EventHandler(this, &MainForm::button4_Click);
+            // 
             // MainForm
             // 
             this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
             this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
             this->ClientSize = System::Drawing::Size(835, 399);
+            this->Controls->Add(this->button4);
             this->Controls->Add(this->tableLayoutPanel1);
             this->Name = L"MainForm";
             this->Text = L"MainForm";
@@ -2194,13 +2207,16 @@ private: System::ComponentModel::IContainer^ components;
         localTCP->Write(data, 0, data->Length);
     }
     private: System::Void timer1_Tick(System::Object^ sender, System::EventArgs^ e) {
-        sendData(mTcpStream,trackBar1->Value, trackBar4->Value, trackBar7->Value, trackBar10->Value, trackBar13->Value, trackBar16->Value);
+        //sendData(mTcpStream,trackBar1->Value, trackBar4->Value, trackBar7->Value, trackBar10->Value, trackBar13->Value, trackBar16->Value);
     }
     private: System::Void timer2_Tick(System::Object^ sender, System::EventArgs^ e) {
         sendData(mTcpStream2, trackBar2->Value, trackBar5->Value, trackBar8->Value, trackBar11->Value, trackBar14->Value, trackBar17->Value);
     }
     private: System::Void timer3_Tick(System::Object^ sender, System::EventArgs^ e) {
         sendData(mTcpStream3, trackBar3->Value, trackBar6->Value, trackBar9->Value, trackBar12->Value, trackBar15->Value, trackBar18->Value);
+    }
+    private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
+        sendData(mTcpStream, trackBar1->Value, trackBar4->Value, trackBar7->Value, trackBar10->Value, trackBar13->Value, trackBar16->Value);
     }
 };
 }
