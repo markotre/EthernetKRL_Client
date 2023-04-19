@@ -388,7 +388,7 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel1->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 10)));
             this->tableLayoutPanel1->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 10)));
             this->tableLayoutPanel1->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 10)));
-            this->tableLayoutPanel1->Size = System::Drawing::Size(835, 399);
+            this->tableLayoutPanel1->Size = System::Drawing::Size(918, 399);
             this->tableLayoutPanel1->TabIndex = 0;
             // 
             // tableLayoutPanel25
@@ -398,18 +398,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel25->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel25->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                66.66666F)));
             this->tableLayoutPanel25->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18.33333F)));
             this->tableLayoutPanel25->Controls->Add(this->label44, 0, 0);
             this->tableLayoutPanel25->Controls->Add(this->trackBar18, 1, 0);
             this->tableLayoutPanel25->Controls->Add(this->label45, 2, 0);
             this->tableLayoutPanel25->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel25->Location = System::Drawing::Point(559, 354);
+            this->tableLayoutPanel25->Location = System::Drawing::Point(615, 354);
             this->tableLayoutPanel25->Name = L"tableLayoutPanel25";
             this->tableLayoutPanel25->RowCount = 1;
             this->tableLayoutPanel25->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel25->Size = System::Drawing::Size(273, 42);
+            this->tableLayoutPanel25->Size = System::Drawing::Size(300, 42);
             this->tableLayoutPanel25->TabIndex = 29;
             // 
             // label44
@@ -420,7 +420,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label44->Location = System::Drawing::Point(3, 0);
             this->label44->Name = L"label44";
-            this->label44->Size = System::Drawing::Size(34, 42);
+            this->label44->Size = System::Drawing::Size(39, 42);
             this->label44->TabIndex = 1;
             this->label44->Text = L"A6";
             this->label44->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -431,22 +431,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar18->Enabled = false;
-            this->trackBar18->Location = System::Drawing::Point(43, 3);
-            this->trackBar18->Maximum = 200;
-            this->trackBar18->Minimum = -200;
+            this->trackBar18->Location = System::Drawing::Point(48, 3);
+            this->trackBar18->Maximum = 20000;
+            this->trackBar18->Minimum = -20000;
             this->trackBar18->Name = L"trackBar18";
-            this->trackBar18->Size = System::Drawing::Size(185, 36);
+            this->trackBar18->Size = System::Drawing::Size(193, 36);
             this->trackBar18->TabIndex = 2;
-            this->trackBar18->TickFrequency = 20;
+            this->trackBar18->TickFrequency = 2000;
             this->trackBar18->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar18_Scroll);
             // 
             // label45
             // 
             this->label45->AutoSize = true;
             this->label45->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label45->Location = System::Drawing::Point(234, 0);
+            this->label45->Location = System::Drawing::Point(247, 0);
             this->label45->Name = L"label45";
-            this->label45->Size = System::Drawing::Size(36, 42);
+            this->label45->Size = System::Drawing::Size(50, 42);
             this->label45->TabIndex = 3;
             this->label45->Text = L"0°";
             this->label45->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -458,18 +458,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel24->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel24->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67.66666F)));
             this->tableLayoutPanel24->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                17.33333F)));
             this->tableLayoutPanel24->Controls->Add(this->label42, 0, 0);
             this->tableLayoutPanel24->Controls->Add(this->trackBar17, 1, 0);
             this->tableLayoutPanel24->Controls->Add(this->label43, 2, 0);
             this->tableLayoutPanel24->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel24->Location = System::Drawing::Point(281, 354);
+            this->tableLayoutPanel24->Location = System::Drawing::Point(309, 354);
             this->tableLayoutPanel24->Name = L"tableLayoutPanel24";
             this->tableLayoutPanel24->RowCount = 1;
             this->tableLayoutPanel24->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel24->Size = System::Drawing::Size(272, 42);
+            this->tableLayoutPanel24->Size = System::Drawing::Size(300, 42);
             this->tableLayoutPanel24->TabIndex = 28;
             // 
             // label42
@@ -480,7 +480,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label42->Location = System::Drawing::Point(3, 0);
             this->label42->Name = L"label42";
-            this->label42->Size = System::Drawing::Size(34, 42);
+            this->label42->Size = System::Drawing::Size(39, 42);
             this->label42->TabIndex = 1;
             this->label42->Text = L"A6";
             this->label42->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -491,22 +491,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar17->Enabled = false;
-            this->trackBar17->Location = System::Drawing::Point(43, 3);
-            this->trackBar17->Maximum = 200;
-            this->trackBar17->Minimum = -200;
+            this->trackBar17->Location = System::Drawing::Point(48, 3);
+            this->trackBar17->Maximum = 20000;
+            this->trackBar17->Minimum = -20000;
             this->trackBar17->Name = L"trackBar17";
-            this->trackBar17->Size = System::Drawing::Size(184, 36);
+            this->trackBar17->Size = System::Drawing::Size(196, 36);
             this->trackBar17->TabIndex = 2;
-            this->trackBar17->TickFrequency = 20;
+            this->trackBar17->TickFrequency = 2000;
             this->trackBar17->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar17_Scroll);
             // 
             // label43
             // 
             this->label43->AutoSize = true;
             this->label43->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label43->Location = System::Drawing::Point(233, 0);
+            this->label43->Location = System::Drawing::Point(250, 0);
             this->label43->Name = L"label43";
-            this->label43->Size = System::Drawing::Size(36, 42);
+            this->label43->Size = System::Drawing::Size(47, 42);
             this->label43->TabIndex = 3;
             this->label43->Text = L"0°";
             this->label43->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -518,9 +518,9 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel23->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel23->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67)));
             this->tableLayoutPanel23->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18)));
             this->tableLayoutPanel23->Controls->Add(this->label40, 0, 0);
             this->tableLayoutPanel23->Controls->Add(this->trackBar16, 1, 0);
             this->tableLayoutPanel23->Controls->Add(this->label41, 2, 0);
@@ -529,7 +529,7 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel23->Name = L"tableLayoutPanel23";
             this->tableLayoutPanel23->RowCount = 1;
             this->tableLayoutPanel23->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel23->Size = System::Drawing::Size(272, 42);
+            this->tableLayoutPanel23->Size = System::Drawing::Size(300, 42);
             this->tableLayoutPanel23->TabIndex = 27;
             // 
             // label40
@@ -540,7 +540,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label40->Location = System::Drawing::Point(3, 0);
             this->label40->Name = L"label40";
-            this->label40->Size = System::Drawing::Size(34, 42);
+            this->label40->Size = System::Drawing::Size(39, 42);
             this->label40->TabIndex = 1;
             this->label40->Text = L"A6";
             this->label40->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -551,22 +551,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar16->Enabled = false;
-            this->trackBar16->Location = System::Drawing::Point(43, 3);
-            this->trackBar16->Maximum = 200;
-            this->trackBar16->Minimum = -200;
+            this->trackBar16->Location = System::Drawing::Point(48, 3);
+            this->trackBar16->Maximum = 20000;
+            this->trackBar16->Minimum = -20000;
             this->trackBar16->Name = L"trackBar16";
-            this->trackBar16->Size = System::Drawing::Size(184, 36);
+            this->trackBar16->Size = System::Drawing::Size(195, 36);
             this->trackBar16->TabIndex = 2;
-            this->trackBar16->TickFrequency = 20;
+            this->trackBar16->TickFrequency = 2000;
             this->trackBar16->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar16_Scroll);
             // 
             // label41
             // 
             this->label41->AutoSize = true;
             this->label41->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label41->Location = System::Drawing::Point(233, 0);
+            this->label41->Location = System::Drawing::Point(249, 0);
             this->label41->Name = L"label41";
-            this->label41->Size = System::Drawing::Size(36, 42);
+            this->label41->Size = System::Drawing::Size(48, 42);
             this->label41->TabIndex = 3;
             this->label41->Text = L"0°";
             this->label41->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -578,18 +578,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel22->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel22->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                66.33334F)));
             this->tableLayoutPanel22->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18.66667F)));
             this->tableLayoutPanel22->Controls->Add(this->label38, 0, 0);
             this->tableLayoutPanel22->Controls->Add(this->trackBar15, 1, 0);
             this->tableLayoutPanel22->Controls->Add(this->label39, 2, 0);
             this->tableLayoutPanel22->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel22->Location = System::Drawing::Point(559, 315);
+            this->tableLayoutPanel22->Location = System::Drawing::Point(615, 315);
             this->tableLayoutPanel22->Name = L"tableLayoutPanel22";
             this->tableLayoutPanel22->RowCount = 1;
             this->tableLayoutPanel22->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel22->Size = System::Drawing::Size(273, 33);
+            this->tableLayoutPanel22->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel22->TabIndex = 26;
             // 
             // label38
@@ -600,7 +600,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label38->Location = System::Drawing::Point(3, 0);
             this->label38->Name = L"label38";
-            this->label38->Size = System::Drawing::Size(34, 33);
+            this->label38->Size = System::Drawing::Size(39, 33);
             this->label38->TabIndex = 1;
             this->label38->Text = L"A5";
             this->label38->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -611,22 +611,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar15->Enabled = false;
-            this->trackBar15->Location = System::Drawing::Point(43, 3);
-            this->trackBar15->Maximum = 160;
-            this->trackBar15->Minimum = -160;
+            this->trackBar15->Location = System::Drawing::Point(48, 3);
+            this->trackBar15->Maximum = 16000;
+            this->trackBar15->Minimum = -16000;
             this->trackBar15->Name = L"trackBar15";
-            this->trackBar15->Size = System::Drawing::Size(185, 27);
+            this->trackBar15->Size = System::Drawing::Size(193, 27);
             this->trackBar15->TabIndex = 2;
-            this->trackBar15->TickFrequency = 20;
+            this->trackBar15->TickFrequency = 2000;
             this->trackBar15->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar15_Scroll);
             // 
             // label39
             // 
             this->label39->AutoSize = true;
             this->label39->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label39->Location = System::Drawing::Point(234, 0);
+            this->label39->Location = System::Drawing::Point(247, 0);
             this->label39->Name = L"label39";
-            this->label39->Size = System::Drawing::Size(36, 33);
+            this->label39->Size = System::Drawing::Size(50, 33);
             this->label39->TabIndex = 3;
             this->label39->Text = L"0°";
             this->label39->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -638,18 +638,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel21->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel21->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67.66666F)));
             this->tableLayoutPanel21->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                17.33333F)));
             this->tableLayoutPanel21->Controls->Add(this->label36, 0, 0);
             this->tableLayoutPanel21->Controls->Add(this->trackBar14, 1, 0);
             this->tableLayoutPanel21->Controls->Add(this->label37, 2, 0);
             this->tableLayoutPanel21->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel21->Location = System::Drawing::Point(281, 315);
+            this->tableLayoutPanel21->Location = System::Drawing::Point(309, 315);
             this->tableLayoutPanel21->Name = L"tableLayoutPanel21";
             this->tableLayoutPanel21->RowCount = 1;
             this->tableLayoutPanel21->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel21->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel21->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel21->TabIndex = 25;
             // 
             // label36
@@ -660,7 +660,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label36->Location = System::Drawing::Point(3, 0);
             this->label36->Name = L"label36";
-            this->label36->Size = System::Drawing::Size(34, 33);
+            this->label36->Size = System::Drawing::Size(39, 33);
             this->label36->TabIndex = 1;
             this->label36->Text = L"A5";
             this->label36->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -671,22 +671,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar14->Enabled = false;
-            this->trackBar14->Location = System::Drawing::Point(43, 3);
-            this->trackBar14->Maximum = 160;
-            this->trackBar14->Minimum = -160;
+            this->trackBar14->Location = System::Drawing::Point(48, 3);
+            this->trackBar14->Maximum = 16000;
+            this->trackBar14->Minimum = -16000;
             this->trackBar14->Name = L"trackBar14";
-            this->trackBar14->Size = System::Drawing::Size(184, 27);
+            this->trackBar14->Size = System::Drawing::Size(196, 27);
             this->trackBar14->TabIndex = 2;
-            this->trackBar14->TickFrequency = 20;
+            this->trackBar14->TickFrequency = 2000;
             this->trackBar14->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar14_Scroll);
             // 
             // label37
             // 
             this->label37->AutoSize = true;
             this->label37->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label37->Location = System::Drawing::Point(233, 0);
+            this->label37->Location = System::Drawing::Point(250, 0);
             this->label37->Name = L"label37";
-            this->label37->Size = System::Drawing::Size(36, 33);
+            this->label37->Size = System::Drawing::Size(47, 33);
             this->label37->TabIndex = 3;
             this->label37->Text = L"0°";
             this->label37->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -698,9 +698,9 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel20->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel20->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67)));
             this->tableLayoutPanel20->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18)));
             this->tableLayoutPanel20->Controls->Add(this->label34, 0, 0);
             this->tableLayoutPanel20->Controls->Add(this->trackBar13, 1, 0);
             this->tableLayoutPanel20->Controls->Add(this->label35, 2, 0);
@@ -709,7 +709,7 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel20->Name = L"tableLayoutPanel20";
             this->tableLayoutPanel20->RowCount = 1;
             this->tableLayoutPanel20->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel20->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel20->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel20->TabIndex = 24;
             // 
             // label34
@@ -720,7 +720,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label34->Location = System::Drawing::Point(3, 0);
             this->label34->Name = L"label34";
-            this->label34->Size = System::Drawing::Size(34, 33);
+            this->label34->Size = System::Drawing::Size(39, 33);
             this->label34->TabIndex = 1;
             this->label34->Text = L"A5";
             this->label34->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -731,22 +731,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar13->Enabled = false;
-            this->trackBar13->Location = System::Drawing::Point(43, 3);
-            this->trackBar13->Maximum = 160;
-            this->trackBar13->Minimum = -160;
+            this->trackBar13->Location = System::Drawing::Point(48, 3);
+            this->trackBar13->Maximum = 16000;
+            this->trackBar13->Minimum = -16000;
             this->trackBar13->Name = L"trackBar13";
-            this->trackBar13->Size = System::Drawing::Size(184, 27);
+            this->trackBar13->Size = System::Drawing::Size(195, 27);
             this->trackBar13->TabIndex = 2;
-            this->trackBar13->TickFrequency = 20;
+            this->trackBar13->TickFrequency = 2000;
             this->trackBar13->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar13_Scroll);
             // 
             // label35
             // 
             this->label35->AutoSize = true;
             this->label35->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label35->Location = System::Drawing::Point(233, 0);
+            this->label35->Location = System::Drawing::Point(249, 0);
             this->label35->Name = L"label35";
-            this->label35->Size = System::Drawing::Size(36, 33);
+            this->label35->Size = System::Drawing::Size(48, 33);
             this->label35->TabIndex = 3;
             this->label35->Text = L"0°";
             this->label35->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -758,18 +758,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel19->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel19->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                66.66666F)));
             this->tableLayoutPanel19->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18.33333F)));
             this->tableLayoutPanel19->Controls->Add(this->label32, 0, 0);
             this->tableLayoutPanel19->Controls->Add(this->trackBar12, 1, 0);
             this->tableLayoutPanel19->Controls->Add(this->label33, 2, 0);
             this->tableLayoutPanel19->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel19->Location = System::Drawing::Point(559, 276);
+            this->tableLayoutPanel19->Location = System::Drawing::Point(615, 276);
             this->tableLayoutPanel19->Name = L"tableLayoutPanel19";
             this->tableLayoutPanel19->RowCount = 1;
             this->tableLayoutPanel19->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel19->Size = System::Drawing::Size(273, 33);
+            this->tableLayoutPanel19->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel19->TabIndex = 23;
             // 
             // label32
@@ -780,7 +780,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label32->Location = System::Drawing::Point(3, 0);
             this->label32->Name = L"label32";
-            this->label32->Size = System::Drawing::Size(34, 33);
+            this->label32->Size = System::Drawing::Size(39, 33);
             this->label32->TabIndex = 1;
             this->label32->Text = L"A4";
             this->label32->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -791,22 +791,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar12->Enabled = false;
-            this->trackBar12->Location = System::Drawing::Point(43, 3);
-            this->trackBar12->Maximum = 180;
-            this->trackBar12->Minimum = -180;
+            this->trackBar12->Location = System::Drawing::Point(48, 3);
+            this->trackBar12->Maximum = 18000;
+            this->trackBar12->Minimum = -18000;
             this->trackBar12->Name = L"trackBar12";
-            this->trackBar12->Size = System::Drawing::Size(185, 27);
+            this->trackBar12->Size = System::Drawing::Size(193, 27);
             this->trackBar12->TabIndex = 2;
-            this->trackBar12->TickFrequency = 20;
+            this->trackBar12->TickFrequency = 2000;
             this->trackBar12->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar12_Scroll);
             // 
             // label33
             // 
             this->label33->AutoSize = true;
             this->label33->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label33->Location = System::Drawing::Point(234, 0);
+            this->label33->Location = System::Drawing::Point(247, 0);
             this->label33->Name = L"label33";
-            this->label33->Size = System::Drawing::Size(36, 33);
+            this->label33->Size = System::Drawing::Size(50, 33);
             this->label33->TabIndex = 3;
             this->label33->Text = L"0°";
             this->label33->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -818,18 +818,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel18->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel18->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67.33334F)));
             this->tableLayoutPanel18->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                17.66667F)));
             this->tableLayoutPanel18->Controls->Add(this->label30, 0, 0);
             this->tableLayoutPanel18->Controls->Add(this->trackBar11, 1, 0);
             this->tableLayoutPanel18->Controls->Add(this->label31, 2, 0);
             this->tableLayoutPanel18->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel18->Location = System::Drawing::Point(281, 276);
+            this->tableLayoutPanel18->Location = System::Drawing::Point(309, 276);
             this->tableLayoutPanel18->Name = L"tableLayoutPanel18";
             this->tableLayoutPanel18->RowCount = 1;
             this->tableLayoutPanel18->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel18->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel18->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel18->TabIndex = 22;
             // 
             // label30
@@ -840,7 +840,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label30->Location = System::Drawing::Point(3, 0);
             this->label30->Name = L"label30";
-            this->label30->Size = System::Drawing::Size(34, 33);
+            this->label30->Size = System::Drawing::Size(39, 33);
             this->label30->TabIndex = 1;
             this->label30->Text = L"A4";
             this->label30->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -851,22 +851,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar11->Enabled = false;
-            this->trackBar11->Location = System::Drawing::Point(43, 3);
-            this->trackBar11->Maximum = 180;
-            this->trackBar11->Minimum = -180;
+            this->trackBar11->Location = System::Drawing::Point(48, 3);
+            this->trackBar11->Maximum = 18000;
+            this->trackBar11->Minimum = -18000;
             this->trackBar11->Name = L"trackBar11";
-            this->trackBar11->Size = System::Drawing::Size(184, 27);
+            this->trackBar11->Size = System::Drawing::Size(196, 27);
             this->trackBar11->TabIndex = 2;
-            this->trackBar11->TickFrequency = 20;
+            this->trackBar11->TickFrequency = 2000;
             this->trackBar11->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar11_Scroll);
             // 
             // label31
             // 
             this->label31->AutoSize = true;
             this->label31->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label31->Location = System::Drawing::Point(233, 0);
+            this->label31->Location = System::Drawing::Point(250, 0);
             this->label31->Name = L"label31";
-            this->label31->Size = System::Drawing::Size(36, 33);
+            this->label31->Size = System::Drawing::Size(47, 33);
             this->label31->TabIndex = 3;
             this->label31->Text = L"0°";
             this->label31->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -878,9 +878,9 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel17->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel17->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67)));
             this->tableLayoutPanel17->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18)));
             this->tableLayoutPanel17->Controls->Add(this->label28, 0, 0);
             this->tableLayoutPanel17->Controls->Add(this->trackBar10, 1, 0);
             this->tableLayoutPanel17->Controls->Add(this->label29, 2, 0);
@@ -889,7 +889,7 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel17->Name = L"tableLayoutPanel17";
             this->tableLayoutPanel17->RowCount = 1;
             this->tableLayoutPanel17->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel17->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel17->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel17->TabIndex = 21;
             // 
             // label28
@@ -900,7 +900,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label28->Location = System::Drawing::Point(3, 0);
             this->label28->Name = L"label28";
-            this->label28->Size = System::Drawing::Size(34, 33);
+            this->label28->Size = System::Drawing::Size(39, 33);
             this->label28->TabIndex = 1;
             this->label28->Text = L"A4";
             this->label28->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -911,22 +911,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar10->Enabled = false;
-            this->trackBar10->Location = System::Drawing::Point(43, 3);
-            this->trackBar10->Maximum = 180;
-            this->trackBar10->Minimum = -180;
+            this->trackBar10->Location = System::Drawing::Point(48, 3);
+            this->trackBar10->Maximum = 18000;
+            this->trackBar10->Minimum = -18000;
             this->trackBar10->Name = L"trackBar10";
-            this->trackBar10->Size = System::Drawing::Size(184, 27);
+            this->trackBar10->Size = System::Drawing::Size(195, 27);
             this->trackBar10->TabIndex = 2;
-            this->trackBar10->TickFrequency = 20;
+            this->trackBar10->TickFrequency = 2000;
             this->trackBar10->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar10_Scroll);
             // 
             // label29
             // 
             this->label29->AutoSize = true;
             this->label29->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label29->Location = System::Drawing::Point(233, 0);
+            this->label29->Location = System::Drawing::Point(249, 0);
             this->label29->Name = L"label29";
-            this->label29->Size = System::Drawing::Size(36, 33);
+            this->label29->Size = System::Drawing::Size(48, 33);
             this->label29->TabIndex = 3;
             this->label29->Text = L"0°";
             this->label29->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -938,18 +938,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel16->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel16->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                66.33334F)));
             this->tableLayoutPanel16->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18.66667F)));
             this->tableLayoutPanel16->Controls->Add(this->label26, 0, 0);
             this->tableLayoutPanel16->Controls->Add(this->trackBar9, 1, 0);
             this->tableLayoutPanel16->Controls->Add(this->label27, 2, 0);
             this->tableLayoutPanel16->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel16->Location = System::Drawing::Point(559, 237);
+            this->tableLayoutPanel16->Location = System::Drawing::Point(615, 237);
             this->tableLayoutPanel16->Name = L"tableLayoutPanel16";
             this->tableLayoutPanel16->RowCount = 1;
             this->tableLayoutPanel16->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel16->Size = System::Drawing::Size(273, 33);
+            this->tableLayoutPanel16->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel16->TabIndex = 20;
             // 
             // label26
@@ -960,7 +960,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label26->Location = System::Drawing::Point(3, 0);
             this->label26->Name = L"label26";
-            this->label26->Size = System::Drawing::Size(34, 33);
+            this->label26->Size = System::Drawing::Size(39, 33);
             this->label26->TabIndex = 1;
             this->label26->Text = L"A3";
             this->label26->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -971,23 +971,23 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar9->Enabled = false;
-            this->trackBar9->Location = System::Drawing::Point(43, 3);
-            this->trackBar9->Maximum = 180;
-            this->trackBar9->Minimum = -180;
+            this->trackBar9->Location = System::Drawing::Point(48, 3);
+            this->trackBar9->Maximum = 18000;
+            this->trackBar9->Minimum = -18000;
             this->trackBar9->Name = L"trackBar9";
-            this->trackBar9->Size = System::Drawing::Size(185, 27);
+            this->trackBar9->Size = System::Drawing::Size(193, 27);
             this->trackBar9->TabIndex = 2;
-            this->trackBar9->TickFrequency = 20;
-            this->trackBar9->Value = 90;
+            this->trackBar9->TickFrequency = 2000;
+            this->trackBar9->Value = 9000;
             this->trackBar9->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar9_Scroll);
             // 
             // label27
             // 
             this->label27->AutoSize = true;
             this->label27->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label27->Location = System::Drawing::Point(234, 0);
+            this->label27->Location = System::Drawing::Point(247, 0);
             this->label27->Name = L"label27";
-            this->label27->Size = System::Drawing::Size(36, 33);
+            this->label27->Size = System::Drawing::Size(50, 33);
             this->label27->TabIndex = 3;
             this->label27->Text = L"90°";
             this->label27->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -999,18 +999,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel15->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel15->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67.66666F)));
             this->tableLayoutPanel15->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                17.33333F)));
             this->tableLayoutPanel15->Controls->Add(this->label24, 0, 0);
             this->tableLayoutPanel15->Controls->Add(this->trackBar8, 1, 0);
             this->tableLayoutPanel15->Controls->Add(this->label25, 2, 0);
             this->tableLayoutPanel15->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel15->Location = System::Drawing::Point(281, 237);
+            this->tableLayoutPanel15->Location = System::Drawing::Point(309, 237);
             this->tableLayoutPanel15->Name = L"tableLayoutPanel15";
             this->tableLayoutPanel15->RowCount = 1;
             this->tableLayoutPanel15->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel15->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel15->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel15->TabIndex = 19;
             // 
             // label24
@@ -1021,7 +1021,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label24->Location = System::Drawing::Point(3, 0);
             this->label24->Name = L"label24";
-            this->label24->Size = System::Drawing::Size(34, 33);
+            this->label24->Size = System::Drawing::Size(39, 33);
             this->label24->TabIndex = 1;
             this->label24->Text = L"A3";
             this->label24->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1032,23 +1032,23 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar8->Enabled = false;
-            this->trackBar8->Location = System::Drawing::Point(43, 3);
-            this->trackBar8->Maximum = 180;
-            this->trackBar8->Minimum = -180;
+            this->trackBar8->Location = System::Drawing::Point(48, 3);
+            this->trackBar8->Maximum = 18000;
+            this->trackBar8->Minimum = -18000;
             this->trackBar8->Name = L"trackBar8";
-            this->trackBar8->Size = System::Drawing::Size(184, 27);
+            this->trackBar8->Size = System::Drawing::Size(196, 27);
             this->trackBar8->TabIndex = 2;
-            this->trackBar8->TickFrequency = 20;
-            this->trackBar8->Value = 90;
+            this->trackBar8->TickFrequency = 2000;
+            this->trackBar8->Value = 9000;
             this->trackBar8->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar8_Scroll);
             // 
             // label25
             // 
             this->label25->AutoSize = true;
             this->label25->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label25->Location = System::Drawing::Point(233, 0);
+            this->label25->Location = System::Drawing::Point(250, 0);
             this->label25->Name = L"label25";
-            this->label25->Size = System::Drawing::Size(36, 33);
+            this->label25->Size = System::Drawing::Size(47, 33);
             this->label25->TabIndex = 3;
             this->label25->Text = L"90°";
             this->label25->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1060,9 +1060,9 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel14->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel14->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67)));
             this->tableLayoutPanel14->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18)));
             this->tableLayoutPanel14->Controls->Add(this->label22, 0, 0);
             this->tableLayoutPanel14->Controls->Add(this->trackBar7, 1, 0);
             this->tableLayoutPanel14->Controls->Add(this->label23, 2, 0);
@@ -1071,7 +1071,7 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel14->Name = L"tableLayoutPanel14";
             this->tableLayoutPanel14->RowCount = 1;
             this->tableLayoutPanel14->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel14->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel14->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel14->TabIndex = 18;
             // 
             // label22
@@ -1082,7 +1082,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label22->Location = System::Drawing::Point(3, 0);
             this->label22->Name = L"label22";
-            this->label22->Size = System::Drawing::Size(34, 33);
+            this->label22->Size = System::Drawing::Size(39, 33);
             this->label22->TabIndex = 1;
             this->label22->Text = L"A3";
             this->label22->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1093,23 +1093,23 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar7->Enabled = false;
-            this->trackBar7->Location = System::Drawing::Point(43, 3);
-            this->trackBar7->Maximum = 180;
-            this->trackBar7->Minimum = -180;
+            this->trackBar7->Location = System::Drawing::Point(48, 3);
+            this->trackBar7->Maximum = 18000;
+            this->trackBar7->Minimum = -18000;
             this->trackBar7->Name = L"trackBar7";
-            this->trackBar7->Size = System::Drawing::Size(184, 27);
+            this->trackBar7->Size = System::Drawing::Size(195, 27);
             this->trackBar7->TabIndex = 2;
-            this->trackBar7->TickFrequency = 20;
-            this->trackBar7->Value = 90;
+            this->trackBar7->TickFrequency = 2000;
+            this->trackBar7->Value = 9000;
             this->trackBar7->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar7_Scroll);
             // 
             // label23
             // 
             this->label23->AutoSize = true;
             this->label23->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label23->Location = System::Drawing::Point(233, 0);
+            this->label23->Location = System::Drawing::Point(249, 0);
             this->label23->Name = L"label23";
-            this->label23->Size = System::Drawing::Size(36, 33);
+            this->label23->Size = System::Drawing::Size(48, 33);
             this->label23->TabIndex = 3;
             this->label23->Text = L"90°";
             this->label23->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1121,18 +1121,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel13->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel13->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                66.33334F)));
             this->tableLayoutPanel13->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18.66667F)));
             this->tableLayoutPanel13->Controls->Add(this->label20, 0, 0);
             this->tableLayoutPanel13->Controls->Add(this->trackBar6, 1, 0);
             this->tableLayoutPanel13->Controls->Add(this->label21, 2, 0);
             this->tableLayoutPanel13->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel13->Location = System::Drawing::Point(559, 198);
+            this->tableLayoutPanel13->Location = System::Drawing::Point(615, 198);
             this->tableLayoutPanel13->Name = L"tableLayoutPanel13";
             this->tableLayoutPanel13->RowCount = 1;
             this->tableLayoutPanel13->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel13->Size = System::Drawing::Size(273, 33);
+            this->tableLayoutPanel13->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel13->TabIndex = 17;
             // 
             // label20
@@ -1143,7 +1143,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label20->Location = System::Drawing::Point(3, 0);
             this->label20->Name = L"label20";
-            this->label20->Size = System::Drawing::Size(34, 33);
+            this->label20->Size = System::Drawing::Size(39, 33);
             this->label20->TabIndex = 1;
             this->label20->Text = L"A2";
             this->label20->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1154,22 +1154,23 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar6->Enabled = false;
-            this->trackBar6->Location = System::Drawing::Point(43, 3);
-            this->trackBar6->Minimum = -190;
+            this->trackBar6->Location = System::Drawing::Point(48, 3);
+            this->trackBar6->Maximum = 1000;
+            this->trackBar6->Minimum = -19000;
             this->trackBar6->Name = L"trackBar6";
-            this->trackBar6->Size = System::Drawing::Size(185, 27);
+            this->trackBar6->Size = System::Drawing::Size(193, 27);
             this->trackBar6->TabIndex = 2;
-            this->trackBar6->TickFrequency = 10;
-            this->trackBar6->Value = -90;
+            this->trackBar6->TickFrequency = 1000;
+            this->trackBar6->Value = -9000;
             this->trackBar6->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar6_Scroll);
             // 
             // label21
             // 
             this->label21->AutoSize = true;
             this->label21->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label21->Location = System::Drawing::Point(234, 0);
+            this->label21->Location = System::Drawing::Point(247, 0);
             this->label21->Name = L"label21";
-            this->label21->Size = System::Drawing::Size(36, 33);
+            this->label21->Size = System::Drawing::Size(50, 33);
             this->label21->TabIndex = 3;
             this->label21->Text = L"-90°";
             this->label21->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1181,18 +1182,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel12->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel12->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67.33334F)));
             this->tableLayoutPanel12->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                17.66667F)));
             this->tableLayoutPanel12->Controls->Add(this->label18, 0, 0);
             this->tableLayoutPanel12->Controls->Add(this->trackBar5, 1, 0);
             this->tableLayoutPanel12->Controls->Add(this->label19, 2, 0);
             this->tableLayoutPanel12->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel12->Location = System::Drawing::Point(281, 198);
+            this->tableLayoutPanel12->Location = System::Drawing::Point(309, 198);
             this->tableLayoutPanel12->Name = L"tableLayoutPanel12";
             this->tableLayoutPanel12->RowCount = 1;
             this->tableLayoutPanel12->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel12->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel12->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel12->TabIndex = 16;
             // 
             // label18
@@ -1203,7 +1204,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label18->Location = System::Drawing::Point(3, 0);
             this->label18->Name = L"label18";
-            this->label18->Size = System::Drawing::Size(34, 33);
+            this->label18->Size = System::Drawing::Size(39, 33);
             this->label18->TabIndex = 1;
             this->label18->Text = L"A2";
             this->label18->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1214,22 +1215,23 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar5->Enabled = false;
-            this->trackBar5->Location = System::Drawing::Point(43, 3);
-            this->trackBar5->Minimum = -190;
+            this->trackBar5->Location = System::Drawing::Point(48, 3);
+            this->trackBar5->Maximum = 1000;
+            this->trackBar5->Minimum = -19000;
             this->trackBar5->Name = L"trackBar5";
-            this->trackBar5->Size = System::Drawing::Size(184, 27);
+            this->trackBar5->Size = System::Drawing::Size(196, 27);
             this->trackBar5->TabIndex = 2;
-            this->trackBar5->TickFrequency = 10;
-            this->trackBar5->Value = -90;
+            this->trackBar5->TickFrequency = 1000;
+            this->trackBar5->Value = -9000;
             this->trackBar5->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar5_Scroll);
             // 
             // label19
             // 
             this->label19->AutoSize = true;
             this->label19->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label19->Location = System::Drawing::Point(233, 0);
+            this->label19->Location = System::Drawing::Point(250, 0);
             this->label19->Name = L"label19";
-            this->label19->Size = System::Drawing::Size(36, 33);
+            this->label19->Size = System::Drawing::Size(47, 33);
             this->label19->TabIndex = 3;
             this->label19->Text = L"-90°";
             this->label19->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1241,9 +1243,9 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel11->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel11->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67)));
             this->tableLayoutPanel11->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18)));
             this->tableLayoutPanel11->Controls->Add(this->label16, 0, 0);
             this->tableLayoutPanel11->Controls->Add(this->trackBar4, 1, 0);
             this->tableLayoutPanel11->Controls->Add(this->label17, 2, 0);
@@ -1252,7 +1254,7 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel11->Name = L"tableLayoutPanel11";
             this->tableLayoutPanel11->RowCount = 1;
             this->tableLayoutPanel11->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel11->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel11->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel11->TabIndex = 15;
             // 
             // label16
@@ -1263,7 +1265,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label16->Location = System::Drawing::Point(3, 0);
             this->label16->Name = L"label16";
-            this->label16->Size = System::Drawing::Size(34, 33);
+            this->label16->Size = System::Drawing::Size(39, 33);
             this->label16->TabIndex = 1;
             this->label16->Text = L"A2";
             this->label16->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1274,22 +1276,23 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar4->Enabled = false;
-            this->trackBar4->Location = System::Drawing::Point(43, 3);
-            this->trackBar4->Minimum = -190;
+            this->trackBar4->Location = System::Drawing::Point(48, 3);
+            this->trackBar4->Maximum = 1000;
+            this->trackBar4->Minimum = -19000;
             this->trackBar4->Name = L"trackBar4";
-            this->trackBar4->Size = System::Drawing::Size(184, 27);
+            this->trackBar4->Size = System::Drawing::Size(195, 27);
             this->trackBar4->TabIndex = 2;
-            this->trackBar4->TickFrequency = 10;
-            this->trackBar4->Value = -90;
+            this->trackBar4->TickFrequency = 1000;
+            this->trackBar4->Value = -9000;
             this->trackBar4->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar4_Scroll);
             // 
             // label17
             // 
             this->label17->AutoSize = true;
             this->label17->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label17->Location = System::Drawing::Point(233, 0);
+            this->label17->Location = System::Drawing::Point(249, 0);
             this->label17->Name = L"label17";
-            this->label17->Size = System::Drawing::Size(36, 33);
+            this->label17->Size = System::Drawing::Size(48, 33);
             this->label17->TabIndex = 3;
             this->label17->Text = L"-90°";
             this->label17->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1301,18 +1304,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel10->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel10->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                66.33334F)));
             this->tableLayoutPanel10->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18.66667F)));
             this->tableLayoutPanel10->Controls->Add(this->label14, 0, 0);
             this->tableLayoutPanel10->Controls->Add(this->trackBar3, 1, 0);
             this->tableLayoutPanel10->Controls->Add(this->label15, 2, 0);
             this->tableLayoutPanel10->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel10->Location = System::Drawing::Point(559, 159);
+            this->tableLayoutPanel10->Location = System::Drawing::Point(615, 159);
             this->tableLayoutPanel10->Name = L"tableLayoutPanel10";
             this->tableLayoutPanel10->RowCount = 1;
             this->tableLayoutPanel10->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel10->Size = System::Drawing::Size(273, 33);
+            this->tableLayoutPanel10->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel10->TabIndex = 14;
             // 
             // label14
@@ -1323,7 +1326,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label14->Location = System::Drawing::Point(3, 0);
             this->label14->Name = L"label14";
-            this->label14->Size = System::Drawing::Size(34, 33);
+            this->label14->Size = System::Drawing::Size(39, 33);
             this->label14->TabIndex = 1;
             this->label14->Text = L"A1";
             this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1334,22 +1337,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar3->Enabled = false;
-            this->trackBar3->Location = System::Drawing::Point(43, 3);
-            this->trackBar3->Maximum = 180;
-            this->trackBar3->Minimum = -180;
+            this->trackBar3->Location = System::Drawing::Point(48, 3);
+            this->trackBar3->Maximum = 18000;
+            this->trackBar3->Minimum = -18000;
             this->trackBar3->Name = L"trackBar3";
-            this->trackBar3->Size = System::Drawing::Size(185, 27);
+            this->trackBar3->Size = System::Drawing::Size(193, 27);
             this->trackBar3->TabIndex = 2;
-            this->trackBar3->TickFrequency = 20;
+            this->trackBar3->TickFrequency = 2000;
             this->trackBar3->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar3_Scroll);
             // 
             // label15
             // 
             this->label15->AutoSize = true;
             this->label15->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label15->Location = System::Drawing::Point(234, 0);
+            this->label15->Location = System::Drawing::Point(247, 0);
             this->label15->Name = L"label15";
-            this->label15->Size = System::Drawing::Size(36, 33);
+            this->label15->Size = System::Drawing::Size(50, 33);
             this->label15->TabIndex = 3;
             this->label15->Text = L"0°";
             this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1361,18 +1364,18 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel9->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel9->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67)));
             this->tableLayoutPanel9->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18)));
             this->tableLayoutPanel9->Controls->Add(this->label12, 0, 0);
             this->tableLayoutPanel9->Controls->Add(this->trackBar2, 1, 0);
             this->tableLayoutPanel9->Controls->Add(this->label13, 2, 0);
             this->tableLayoutPanel9->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel9->Location = System::Drawing::Point(281, 159);
+            this->tableLayoutPanel9->Location = System::Drawing::Point(309, 159);
             this->tableLayoutPanel9->Name = L"tableLayoutPanel9";
             this->tableLayoutPanel9->RowCount = 1;
             this->tableLayoutPanel9->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel9->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel9->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel9->TabIndex = 13;
             // 
             // label12
@@ -1383,7 +1386,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label12->Location = System::Drawing::Point(3, 0);
             this->label12->Name = L"label12";
-            this->label12->Size = System::Drawing::Size(34, 33);
+            this->label12->Size = System::Drawing::Size(39, 33);
             this->label12->TabIndex = 1;
             this->label12->Text = L"A1";
             this->label12->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1394,22 +1397,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar2->Enabled = false;
-            this->trackBar2->Location = System::Drawing::Point(43, 3);
-            this->trackBar2->Maximum = 180;
-            this->trackBar2->Minimum = -180;
+            this->trackBar2->Location = System::Drawing::Point(48, 3);
+            this->trackBar2->Maximum = 18000;
+            this->trackBar2->Minimum = -18000;
             this->trackBar2->Name = L"trackBar2";
-            this->trackBar2->Size = System::Drawing::Size(184, 27);
+            this->trackBar2->Size = System::Drawing::Size(195, 27);
             this->trackBar2->TabIndex = 2;
-            this->trackBar2->TickFrequency = 20;
+            this->trackBar2->TickFrequency = 2000;
             this->trackBar2->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar2_Scroll);
             // 
             // label13
             // 
             this->label13->AutoSize = true;
             this->label13->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label13->Location = System::Drawing::Point(233, 0);
+            this->label13->Location = System::Drawing::Point(249, 0);
             this->label13->Name = L"label13";
-            this->label13->Size = System::Drawing::Size(36, 33);
+            this->label13->Size = System::Drawing::Size(48, 33);
             this->label13->TabIndex = 3;
             this->label13->Text = L"0°";
             this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1421,9 +1424,9 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel8->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
                 15)));
             this->tableLayoutPanel8->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                70)));
+                67)));
             this->tableLayoutPanel8->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
-                15)));
+                18)));
             this->tableLayoutPanel8->Controls->Add(this->label10, 0, 0);
             this->tableLayoutPanel8->Controls->Add(this->trackBar1, 1, 0);
             this->tableLayoutPanel8->Controls->Add(this->label11, 2, 0);
@@ -1432,7 +1435,7 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel8->Name = L"tableLayoutPanel8";
             this->tableLayoutPanel8->RowCount = 1;
             this->tableLayoutPanel8->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel8->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel8->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel8->TabIndex = 12;
             // 
             // label10
@@ -1443,7 +1446,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label10->Location = System::Drawing::Point(3, 0);
             this->label10->Name = L"label10";
-            this->label10->Size = System::Drawing::Size(34, 33);
+            this->label10->Size = System::Drawing::Size(39, 33);
             this->label10->TabIndex = 1;
             this->label10->Text = L"A1";
             this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1454,22 +1457,22 @@ private: System::ComponentModel::IContainer^ components;
                 | System::Windows::Forms::AnchorStyles::Left)
                 | System::Windows::Forms::AnchorStyles::Right));
             this->trackBar1->Enabled = false;
-            this->trackBar1->Location = System::Drawing::Point(43, 3);
-            this->trackBar1->Maximum = 180;
-            this->trackBar1->Minimum = -180;
+            this->trackBar1->Location = System::Drawing::Point(48, 3);
+            this->trackBar1->Maximum = 18000;
+            this->trackBar1->Minimum = -18000;
             this->trackBar1->Name = L"trackBar1";
-            this->trackBar1->Size = System::Drawing::Size(184, 27);
+            this->trackBar1->Size = System::Drawing::Size(195, 27);
             this->trackBar1->TabIndex = 2;
-            this->trackBar1->TickFrequency = 20;
+            this->trackBar1->TickFrequency = 2000;
             this->trackBar1->Scroll += gcnew System::EventHandler(this, &MainForm::trackBar1_Scroll);
             // 
             // label11
             // 
             this->label11->AutoSize = true;
             this->label11->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->label11->Location = System::Drawing::Point(233, 0);
+            this->label11->Location = System::Drawing::Point(249, 0);
             this->label11->Name = L"label11";
-            this->label11->Size = System::Drawing::Size(36, 33);
+            this->label11->Size = System::Drawing::Size(48, 33);
             this->label11->TabIndex = 3;
             this->label11->Text = L"0°";
             this->label11->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1479,9 +1482,9 @@ private: System::ComponentModel::IContainer^ components;
             this->button3->Dock = System::Windows::Forms::DockStyle::Fill;
             this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->button3->Location = System::Drawing::Point(559, 120);
+            this->button3->Location = System::Drawing::Point(615, 120);
             this->button3->Name = L"button3";
-            this->button3->Size = System::Drawing::Size(273, 33);
+            this->button3->Size = System::Drawing::Size(300, 33);
             this->button3->TabIndex = 11;
             this->button3->Text = L"Start";
             this->button3->UseVisualStyleBackColor = true;
@@ -1492,9 +1495,9 @@ private: System::ComponentModel::IContainer^ components;
             this->button2->Dock = System::Windows::Forms::DockStyle::Fill;
             this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->button2->Location = System::Drawing::Point(281, 120);
+            this->button2->Location = System::Drawing::Point(309, 120);
             this->button2->Name = L"button2";
-            this->button2->Size = System::Drawing::Size(272, 33);
+            this->button2->Size = System::Drawing::Size(300, 33);
             this->button2->TabIndex = 10;
             this->button2->Text = L"Start";
             this->button2->UseVisualStyleBackColor = true;
@@ -1511,11 +1514,11 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel7->Controls->Add(this->tableLayoutPanel28, 0, 0);
             this->tableLayoutPanel7->Controls->Add(this->label9, 0, 0);
             this->tableLayoutPanel7->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel7->Location = System::Drawing::Point(559, 81);
+            this->tableLayoutPanel7->Location = System::Drawing::Point(615, 81);
             this->tableLayoutPanel7->Name = L"tableLayoutPanel7";
             this->tableLayoutPanel7->RowCount = 1;
             this->tableLayoutPanel7->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel7->Size = System::Drawing::Size(273, 33);
+            this->tableLayoutPanel7->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel7->TabIndex = 8;
             // 
             // tableLayoutPanel28
@@ -1527,14 +1530,14 @@ private: System::ComponentModel::IContainer^ components;
                 20)));
             this->tableLayoutPanel28->Controls->Add(this->textBox3, 0, 1);
             this->tableLayoutPanel28->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel28->Location = System::Drawing::Point(98, 3);
+            this->tableLayoutPanel28->Location = System::Drawing::Point(108, 3);
             this->tableLayoutPanel28->Name = L"tableLayoutPanel28";
             this->tableLayoutPanel28->RowCount = 3;
             this->tableLayoutPanel28->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 50)));
             this->tableLayoutPanel28->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Absolute,
                 24)));
             this->tableLayoutPanel28->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 50)));
-            this->tableLayoutPanel28->Size = System::Drawing::Size(172, 27);
+            this->tableLayoutPanel28->Size = System::Drawing::Size(189, 27);
             this->tableLayoutPanel28->TabIndex = 3;
             // 
             // textBox3
@@ -1544,7 +1547,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->textBox3->Location = System::Drawing::Point(3, 4);
             this->textBox3->Name = L"textBox3";
-            this->textBox3->Size = System::Drawing::Size(166, 23);
+            this->textBox3->Size = System::Drawing::Size(183, 23);
             this->textBox3->TabIndex = 0;
             this->textBox3->Text = L"127.0.0.1";
             this->textBox3->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -1557,7 +1560,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label9->Location = System::Drawing::Point(3, 0);
             this->label9->Name = L"label9";
-            this->label9->Size = System::Drawing::Size(89, 33);
+            this->label9->Size = System::Drawing::Size(99, 33);
             this->label9->TabIndex = 1;
             this->label9->Text = L"IP:";
             this->label9->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1573,11 +1576,11 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel6->Controls->Add(this->tableLayoutPanel27, 0, 0);
             this->tableLayoutPanel6->Controls->Add(this->label8, 0, 0);
             this->tableLayoutPanel6->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel6->Location = System::Drawing::Point(281, 81);
+            this->tableLayoutPanel6->Location = System::Drawing::Point(309, 81);
             this->tableLayoutPanel6->Name = L"tableLayoutPanel6";
             this->tableLayoutPanel6->RowCount = 1;
             this->tableLayoutPanel6->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel6->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel6->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel6->TabIndex = 7;
             // 
             // tableLayoutPanel27
@@ -1589,14 +1592,14 @@ private: System::ComponentModel::IContainer^ components;
                 20)));
             this->tableLayoutPanel27->Controls->Add(this->textBox2, 0, 1);
             this->tableLayoutPanel27->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel27->Location = System::Drawing::Point(98, 3);
+            this->tableLayoutPanel27->Location = System::Drawing::Point(108, 3);
             this->tableLayoutPanel27->Name = L"tableLayoutPanel27";
             this->tableLayoutPanel27->RowCount = 3;
             this->tableLayoutPanel27->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 50)));
             this->tableLayoutPanel27->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Absolute,
                 24)));
             this->tableLayoutPanel27->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 50)));
-            this->tableLayoutPanel27->Size = System::Drawing::Size(171, 27);
+            this->tableLayoutPanel27->Size = System::Drawing::Size(189, 27);
             this->tableLayoutPanel27->TabIndex = 3;
             // 
             // textBox2
@@ -1606,7 +1609,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->textBox2->Location = System::Drawing::Point(3, 4);
             this->textBox2->Name = L"textBox2";
-            this->textBox2->Size = System::Drawing::Size(165, 23);
+            this->textBox2->Size = System::Drawing::Size(183, 23);
             this->textBox2->TabIndex = 0;
             this->textBox2->Text = L"127.0.0.1";
             this->textBox2->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -1619,7 +1622,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label8->Location = System::Drawing::Point(3, 0);
             this->label8->Name = L"label8";
-            this->label8->Size = System::Drawing::Size(89, 33);
+            this->label8->Size = System::Drawing::Size(99, 33);
             this->label8->TabIndex = 1;
             this->label8->Text = L"IP:";
             this->label8->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1639,7 +1642,7 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel5->Name = L"tableLayoutPanel5";
             this->tableLayoutPanel5->RowCount = 1;
             this->tableLayoutPanel5->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel5->Size = System::Drawing::Size(272, 33);
+            this->tableLayoutPanel5->Size = System::Drawing::Size(300, 33);
             this->tableLayoutPanel5->TabIndex = 6;
             // 
             // label7
@@ -1650,7 +1653,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label7->Location = System::Drawing::Point(3, 0);
             this->label7->Name = L"label7";
-            this->label7->Size = System::Drawing::Size(89, 33);
+            this->label7->Size = System::Drawing::Size(99, 33);
             this->label7->TabIndex = 1;
             this->label7->Text = L"IP:";
             this->label7->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1662,14 +1665,14 @@ private: System::ComponentModel::IContainer^ components;
                 100)));
             this->tableLayoutPanel26->Controls->Add(this->textBox1, 0, 1);
             this->tableLayoutPanel26->Dock = System::Windows::Forms::DockStyle::Fill;
-            this->tableLayoutPanel26->Location = System::Drawing::Point(98, 3);
+            this->tableLayoutPanel26->Location = System::Drawing::Point(108, 3);
             this->tableLayoutPanel26->Name = L"tableLayoutPanel26";
             this->tableLayoutPanel26->RowCount = 3;
             this->tableLayoutPanel26->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 50)));
             this->tableLayoutPanel26->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Absolute,
                 24)));
             this->tableLayoutPanel26->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 50)));
-            this->tableLayoutPanel26->Size = System::Drawing::Size(171, 27);
+            this->tableLayoutPanel26->Size = System::Drawing::Size(189, 27);
             this->tableLayoutPanel26->TabIndex = 2;
             // 
             // textBox1
@@ -1679,7 +1682,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->textBox1->Location = System::Drawing::Point(3, 4);
             this->textBox1->Name = L"textBox1";
-            this->textBox1->Size = System::Drawing::Size(165, 23);
+            this->textBox1->Size = System::Drawing::Size(183, 23);
             this->textBox1->TabIndex = 0;
             this->textBox1->Text = L"127.0.0.1";
             this->textBox1->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -1695,11 +1698,11 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel4->Controls->Add(this->numericUpDown3, 1, 0);
             this->tableLayoutPanel4->Controls->Add(this->label6, 0, 0);
             this->tableLayoutPanel4->Dock = System::Windows::Forms::DockStyle::Bottom;
-            this->tableLayoutPanel4->Location = System::Drawing::Point(559, 45);
+            this->tableLayoutPanel4->Location = System::Drawing::Point(615, 45);
             this->tableLayoutPanel4->Name = L"tableLayoutPanel4";
             this->tableLayoutPanel4->RowCount = 1;
             this->tableLayoutPanel4->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel4->Size = System::Drawing::Size(273, 30);
+            this->tableLayoutPanel4->Size = System::Drawing::Size(300, 30);
             this->tableLayoutPanel4->TabIndex = 5;
             // 
             // numericUpDown3
@@ -1707,11 +1710,11 @@ private: System::ComponentModel::IContainer^ components;
             this->numericUpDown3->Dock = System::Windows::Forms::DockStyle::Fill;
             this->numericUpDown3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->numericUpDown3->Location = System::Drawing::Point(98, 3);
+            this->numericUpDown3->Location = System::Drawing::Point(108, 3);
             this->numericUpDown3->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 60000, 0, 0, 0 });
             this->numericUpDown3->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 55000, 0, 0, 0 });
             this->numericUpDown3->Name = L"numericUpDown3";
-            this->numericUpDown3->Size = System::Drawing::Size(172, 24);
+            this->numericUpDown3->Size = System::Drawing::Size(189, 24);
             this->numericUpDown3->TabIndex = 0;
             this->numericUpDown3->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
             this->numericUpDown3->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 59022, 0, 0, 0 });
@@ -1724,7 +1727,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label6->Location = System::Drawing::Point(3, 0);
             this->label6->Name = L"label6";
-            this->label6->Size = System::Drawing::Size(89, 30);
+            this->label6->Size = System::Drawing::Size(99, 30);
             this->label6->TabIndex = 1;
             this->label6->Text = L"Port:";
             this->label6->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1740,11 +1743,11 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel3->Controls->Add(this->numericUpDown2, 1, 0);
             this->tableLayoutPanel3->Controls->Add(this->label5, 0, 0);
             this->tableLayoutPanel3->Dock = System::Windows::Forms::DockStyle::Bottom;
-            this->tableLayoutPanel3->Location = System::Drawing::Point(281, 45);
+            this->tableLayoutPanel3->Location = System::Drawing::Point(309, 45);
             this->tableLayoutPanel3->Name = L"tableLayoutPanel3";
             this->tableLayoutPanel3->RowCount = 1;
             this->tableLayoutPanel3->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel3->Size = System::Drawing::Size(272, 30);
+            this->tableLayoutPanel3->Size = System::Drawing::Size(300, 30);
             this->tableLayoutPanel3->TabIndex = 4;
             // 
             // numericUpDown2
@@ -1752,11 +1755,11 @@ private: System::ComponentModel::IContainer^ components;
             this->numericUpDown2->Dock = System::Windows::Forms::DockStyle::Fill;
             this->numericUpDown2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->numericUpDown2->Location = System::Drawing::Point(98, 3);
+            this->numericUpDown2->Location = System::Drawing::Point(108, 3);
             this->numericUpDown2->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 60000, 0, 0, 0 });
             this->numericUpDown2->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 55000, 0, 0, 0 });
             this->numericUpDown2->Name = L"numericUpDown2";
-            this->numericUpDown2->Size = System::Drawing::Size(171, 24);
+            this->numericUpDown2->Size = System::Drawing::Size(189, 24);
             this->numericUpDown2->TabIndex = 0;
             this->numericUpDown2->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
             this->numericUpDown2->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 59023, 0, 0, 0 });
@@ -1769,7 +1772,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label5->Location = System::Drawing::Point(3, 0);
             this->label5->Name = L"label5";
-            this->label5->Size = System::Drawing::Size(89, 30);
+            this->label5->Size = System::Drawing::Size(99, 30);
             this->label5->TabIndex = 1;
             this->label5->Text = L"Port:";
             this->label5->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1780,9 +1783,9 @@ private: System::ComponentModel::IContainer^ components;
             this->label3->Dock = System::Windows::Forms::DockStyle::Fill;
             this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label3->Location = System::Drawing::Point(559, 0);
+            this->label3->Location = System::Drawing::Point(615, 0);
             this->label3->Name = L"label3";
-            this->label3->Size = System::Drawing::Size(273, 39);
+            this->label3->Size = System::Drawing::Size(300, 39);
             this->label3->TabIndex = 2;
             this->label3->Text = L"KR MAN2";
             this->label3->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1793,9 +1796,9 @@ private: System::ComponentModel::IContainer^ components;
             this->label2->Dock = System::Windows::Forms::DockStyle::Fill;
             this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->label2->Location = System::Drawing::Point(281, 0);
+            this->label2->Location = System::Drawing::Point(309, 0);
             this->label2->Name = L"label2";
-            this->label2->Size = System::Drawing::Size(272, 39);
+            this->label2->Size = System::Drawing::Size(300, 39);
             this->label2->TabIndex = 1;
             this->label2->Text = L"KR ZVAR";
             this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1808,7 +1811,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label1->Location = System::Drawing::Point(3, 0);
             this->label1->Name = L"label1";
-            this->label1->Size = System::Drawing::Size(272, 39);
+            this->label1->Size = System::Drawing::Size(300, 39);
             this->label1->TabIndex = 0;
             this->label1->Text = L"KR MAN 1";
             this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1828,7 +1831,7 @@ private: System::ComponentModel::IContainer^ components;
             this->tableLayoutPanel2->Name = L"tableLayoutPanel2";
             this->tableLayoutPanel2->RowCount = 1;
             this->tableLayoutPanel2->RowStyles->Add((gcnew System::Windows::Forms::RowStyle(System::Windows::Forms::SizeType::Percent, 100)));
-            this->tableLayoutPanel2->Size = System::Drawing::Size(272, 30);
+            this->tableLayoutPanel2->Size = System::Drawing::Size(300, 30);
             this->tableLayoutPanel2->TabIndex = 3;
             // 
             // numericUpDown1
@@ -1836,11 +1839,11 @@ private: System::ComponentModel::IContainer^ components;
             this->numericUpDown1->Dock = System::Windows::Forms::DockStyle::Fill;
             this->numericUpDown1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
-            this->numericUpDown1->Location = System::Drawing::Point(98, 3);
+            this->numericUpDown1->Location = System::Drawing::Point(108, 3);
             this->numericUpDown1->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 60000, 0, 0, 0 });
             this->numericUpDown1->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 55000, 0, 0, 0 });
             this->numericUpDown1->Name = L"numericUpDown1";
-            this->numericUpDown1->Size = System::Drawing::Size(171, 24);
+            this->numericUpDown1->Size = System::Drawing::Size(189, 24);
             this->numericUpDown1->TabIndex = 0;
             this->numericUpDown1->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
             this->numericUpDown1->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 59021, 0, 0, 0 });
@@ -1853,7 +1856,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->label4->Location = System::Drawing::Point(3, 0);
             this->label4->Name = L"label4";
-            this->label4->Size = System::Drawing::Size(89, 30);
+            this->label4->Size = System::Drawing::Size(99, 30);
             this->label4->TabIndex = 1;
             this->label4->Text = L"Port:";
             this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1865,7 +1868,7 @@ private: System::ComponentModel::IContainer^ components;
                 static_cast<System::Byte>(0)));
             this->button1->Location = System::Drawing::Point(3, 120);
             this->button1->Name = L"button1";
-            this->button1->Size = System::Drawing::Size(272, 33);
+            this->button1->Size = System::Drawing::Size(300, 33);
             this->button1->TabIndex = 9;
             this->button1->Text = L"Start";
             this->button1->UseVisualStyleBackColor = true;
@@ -1890,7 +1893,7 @@ private: System::ComponentModel::IContainer^ components;
             // 
             this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
             this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-            this->ClientSize = System::Drawing::Size(835, 399);
+            this->ClientSize = System::Drawing::Size(918, 399);
             this->Controls->Add(this->tableLayoutPanel1);
             this->Name = L"MainForm";
             this->Text = L"MainForm";
@@ -1976,58 +1979,58 @@ private: System::ComponentModel::IContainer^ components;
         }
 #pragma endregion
     private: System::Void trackBar1_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label11->Text = trackBar1->Value.ToString() + "°";
+        label11->Text = ((double)trackBar1->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar2_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label13->Text = trackBar2->Value.ToString() + "°";
+        label13->Text = ((double)trackBar2->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar3_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label15->Text = trackBar3->Value.ToString() + "°";
+        label15->Text = ((double)trackBar3->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar4_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label17->Text = trackBar4->Value.ToString() + "°";
+        label17->Text = ((double)trackBar4->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar5_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label19->Text = trackBar5->Value.ToString() + "°";
+        label19->Text = ((double)trackBar5->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar9_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label27->Text = trackBar9->Value.ToString() + "°";
+        label27->Text = ((double)trackBar9->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar6_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label21->Text = trackBar6->Value.ToString() + "°";
+        label21->Text = ((double)trackBar6->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar7_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label23->Text = trackBar7->Value.ToString() + "°";
+        label23->Text = ((double)trackBar7->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar8_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label25->Text = trackBar8->Value.ToString() + "°";
+        label25->Text = ((double)trackBar8->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar10_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label29->Text = trackBar10->Value.ToString() + "°";
+        label29->Text = ((double)trackBar10->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar11_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label31->Text = trackBar11->Value.ToString() + "°";
+        label31->Text = ((double)trackBar11->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar12_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label33->Text = trackBar12->Value.ToString() + "°";
+        label33->Text = ((double)trackBar12->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar13_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label35->Text = trackBar13->Value.ToString() + "°";
+        label35->Text = ((double)trackBar13->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar14_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label37->Text = trackBar14->Value.ToString() + "°";
+        label37->Text = ((double)trackBar14->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar15_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label39->Text = trackBar15->Value.ToString() + "°";
+        label39->Text = ((double)trackBar15->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar16_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label41->Text = trackBar16->Value.ToString() + "°";
+        label41->Text = ((double)trackBar16->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar17_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label43->Text = trackBar17->Value.ToString() + "°";
+        label43->Text = ((double)trackBar17->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void trackBar18_Scroll(System::Object^ sender, System::EventArgs^ e) {
-        label45->Text = trackBar18->Value.ToString() + "°";
+        label45->Text = ((double)trackBar18->Value / 100.0).ToString("0.00", gcnew System::Globalization::CultureInfo("en-US")) + "°";
     }
     private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
         if (button1->Text == "Start") {
@@ -2180,12 +2183,12 @@ private: System::ComponentModel::IContainer^ components;
         writer->WriteAttributeString(L"A", (-177.769058).ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
         writer->WriteAttributeString(L"B", (17.104849).ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
         writer->WriteAttributeString(L"C", (179.977203).ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
-        writer->WriteAttributeString(L"A1", A1.ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
-        writer->WriteAttributeString(L"A2", A2.ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
-        writer->WriteAttributeString(L"A3", A3.ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
-        writer->WriteAttributeString(L"A4", A4.ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
-        writer->WriteAttributeString(L"A5", A5.ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
-        writer->WriteAttributeString(L"A6", A6.ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
+        writer->WriteAttributeString(L"A1", (A1 / 100.0).ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
+        writer->WriteAttributeString(L"A2", (A2 / 100.0).ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
+        writer->WriteAttributeString(L"A3", (A3 / 100.0).ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
+        writer->WriteAttributeString(L"A4", (A4 / 100.0).ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
+        writer->WriteAttributeString(L"A5", (A5 / 100.0).ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
+        writer->WriteAttributeString(L"A6", (A6 / 100.0).ToString("0.000", gcnew System::Globalization::CultureInfo("en-US")));
         writer->WriteFullEndElement();
         writer->Flush();
         writer->Close();
